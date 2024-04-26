@@ -1,5 +1,19 @@
 #include <iostream>
 
+using namespace std;
+
 int main () {
+    
+    int userChoice;
+
+    cout << "Simple Calculator" << endl; 
+    cout << "1. Addition" << endl;
+    cout << "2. Subtraction" << endl; 
+    cout << "3. Multiplication" << endl;
+    cout << "4. Division" << endl;
+    cout << "Please select an operation..." << endl;
+
+    cin >> userChoice;
+
     return 0;
 }

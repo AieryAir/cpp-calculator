@@ -1,0 +1,1 @@
+Simple calculator project written in C++.

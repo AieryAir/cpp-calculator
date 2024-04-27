@@ -2,6 +2,22 @@
 
 using namespace std;
 
+double addition (double a, double b) {
+    return a + b;
+}
+
+double subtraction (double a, double b) {
+    return a - b;
+}
+
+double multiplication (double a, double b) {
+    return a * b;
+}
+
+double division (double a, double b) {
+    return a / b;
+}
+
 int main () {
 
     int userChoice;
@@ -30,7 +46,7 @@ int main () {
 
         case 1: 
 
-        result = userInput1 + userInput2;
+        result = addition(userInput1, userInput2);
 
         cout << "The sum of " << userInput1 << " and " << userInput2 << " is... " << endl;
         cout << result;
@@ -40,7 +56,7 @@ int main () {
 
         case 2:
 
-        result = userInput1 - userInput2;
+        result = subtraction(userInput1, userInput2);
 
         cout << "The difference between " << userInput1 << " and " << userInput2 << " is... " << endl;
         cout << result;
@@ -50,7 +66,7 @@ int main () {
         
         case 3: 
 
-        result = userInput1 * userInput2;
+        result = multiplication(userInput1, userInput2);
 
         cout << "The product of " << userInput1 << " and " << userInput2 << " is... " << endl;
         cout << result;
@@ -60,7 +76,7 @@ int main () {
 
         case 4: 
 
-        result = userInput1 / userInput2;
+        result = division(userInput1, userInput2);
 
         cout << "The quotient of " << userInput1 << " and " << userInput2 << " is... " << endl;
         cout << result;
